@@ -1,13 +1,18 @@
 // Code your solution in this file
 
-function findMatching(collection, check) {
-  return collection.filter(function(name) {
-    return name.toLowerCase() === check.toLowerCase();
+function findMatching(collection, name) {
+  return collection.filter(function(check) {
+    return check.toLowerCase() === name.toLowerCase();
   });
 }
 
-function fuzzyMatch(collection, check){
-  return collection.filter(function(name) {
-    return name.toLowerCase().indexOf(check.toLowerCase()) === 0 ;
+function fuzzyMatch(collection, name){
+  return collection.filter(function(check) {
+    return check.toLowerCase().indexOf(name.toLowerCase()) === 0 ;
   });
+}
+
+function matchName(collection, name) {
+  
+  
 }
