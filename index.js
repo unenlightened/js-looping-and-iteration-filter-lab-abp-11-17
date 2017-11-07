@@ -14,7 +14,7 @@ function fuzzyMatch(collection, name){
 
 function matchName(collection, name) {
   return collection.filter(function(check){
-      return console.log(collection['hometown']);
+      return console.log(collection[1].toLowerCase(););
   });
 
 }
