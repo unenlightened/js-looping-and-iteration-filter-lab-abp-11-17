@@ -4,5 +4,5 @@ function findMatching(collection, name){
   function checkName(name){
     return test === name;
   }
-  return collection.filter();
+  return collection.filter(checkName);
 }
