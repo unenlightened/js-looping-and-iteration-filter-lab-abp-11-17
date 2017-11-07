@@ -13,8 +13,10 @@ function fuzzyMatch(collection, name){
 }
 
 function matchName(collection, name) {
-  return collection.name.filter(function(check){
-      return check === name;
+  return collection.filter(function(check){
+      for(const key in check) {
+        return check[key] === name;
+      }
   });
 
 }
