@@ -1,6 +1,5 @@
 // Code your solution in this file
 
-function findMatching(collection, name){
-  collection.filter(function(cb));
-
+function findMatching(name){
+  return nameCheck === name;
 }
