@@ -8,6 +8,6 @@ function findMatching(collection, check) {
 
 function fuzzyMatch(collection, check){
   return collection.filter(function(name) {
-    return name.toLowerCase().indexOf(check.toLowerCase());
+    return name.toLowerCase().indexOf(check.toLowerCase()) === 0 ;
   });
 }
