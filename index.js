@@ -8,11 +8,13 @@ function findMatching(collection, name) {
 
 function fuzzyMatch(collection, name){
   return collection.filter(function(check) {
-    return check.toLowerCase().indexOf(name.toLowerCase()) === 0 ;
+    return check.toLowerCase().indexOf(name.toLowerCase()) === 0;
   });
 }
 
 function matchName(collection, name) {
-  return collection.filter(findMatching(collection,name)); 
+  return collection.filter(function(){
+      return check.toLowerCase() === collection.name.toLowerCase();
+  });
 
 }
