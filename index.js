@@ -13,6 +13,6 @@ function fuzzyMatch(collection, name){
 }
 
 function matchName(collection, name) {
-  
-  
+  return collection.filter(findMatching(collection,name)); 
+
 }
