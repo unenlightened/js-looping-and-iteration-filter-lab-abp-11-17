@@ -2,7 +2,7 @@
 
 function findMatching(collection, name) {
   return collection.filter(function(check) {
-    return check === name;
+    return check.toLowerCase() === name.toLowerCase();
   });
 
 }
