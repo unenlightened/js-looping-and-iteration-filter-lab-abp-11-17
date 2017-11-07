@@ -1,9 +1,3 @@
 // Code your solution in this file
 
-function findMatching(collection, name){
-  function nameCheck(name){
-    return check === name;
-  }
-
-  return console.log(collection.filter(nameCheck));
-}
+[1, 2, 3, 4, 5].filter(function (num) { return num > 3; });
