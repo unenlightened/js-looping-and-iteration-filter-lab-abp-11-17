@@ -1,11 +1,11 @@
 // Code your solution in this file
 
-function findMatching(collection, name) {
-  return collection.filter(function(check) {
-    return check.toLowerCase() === name.toLowerCase();
+function findMatching(collection, check) {
+  return collection.filter(function(name) {
+    return name.toLowerCase() === check.toLowerCase();
   });
 }
 
 function fuzzyMatch(){
-  
+
 }
