@@ -1,6 +1,8 @@
 // Code your solution in this file
 
-function findMatching(collection, name){
-  const matching = collection.filter(function(name){return name===name;});
-  return matching;
+function findMatching(collection, name) {
+  return collection.filter(function(name) {
+    return name;
+  });
+  
 }
