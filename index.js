@@ -3,4 +3,4 @@ const drivers = [1, 2, 3, 4, 5];
 
 drivers.filter(function (num) { return num > 3; });
 
-consol.log(drivers);
+console.log(drivers);
