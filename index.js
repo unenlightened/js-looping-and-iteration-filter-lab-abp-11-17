@@ -5,5 +5,5 @@ function findMatching(collection, name){
     return check === name;
   }
 
-  return collection.filter(nameCheck);
+  return console.log(collection.filter(nameCheck));
 }
