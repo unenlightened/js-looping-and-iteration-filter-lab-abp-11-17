@@ -5,3 +5,7 @@ function findMatching(collection, name) {
     return check.toLowerCase() === name.toLowerCase();
   });
 }
+
+function fuzzyMatch(){
+  
+}
